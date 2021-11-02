@@ -5,6 +5,7 @@
     <artifactId>gui-arquitetura</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+<<<<<<< HEAD
     <build>
         <plugins>
             <plugin>
@@ -45,5 +46,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+=======
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+>>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     </properties>
 </project>
