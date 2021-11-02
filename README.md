@@ -1,5 +1,4 @@
 # GUI-arquitetura
-<!-- vscode-markdown-toc -->
 
 1. [Descrição](#descricao)
 2. [Tecnologias](#tecnologia)
@@ -14,21 +13,15 @@ Repositório dedicado ao desenvolvimento da GUI para a atividade proposta na mat
 
 ##  Tecnologias <a id="tecnologia"></a> 🚀
 
-<<<<<<< HEAD
 - [**Java-11*](https://www.java.com/pt-BR/)
-=======
 - [**Java**](https://www.java.com/pt-BR/)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 - [**Maven**](https://maven.apache.org/) 
 
 ##  Biblioteca <a id="biblioteca"></a> 📚
 
-<<<<<<< HEAD
 - [**Mockto**](https://site.mockito.org/)
 - [**JUnit**](https://junit.org/junit5/)
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 ## Ferramentas <a id="ferramenta"></a> :hammer:
 
 - [NetBeans 12](https://netbeans.apache.org/download/nb120/nb120.html)
@@ -42,7 +35,6 @@ Além disso, há uma barra de opções que dará acesso a outras telas, cuja as 
 - Para a tela de Teor do Solo, o primeiro layout definido visa manter o padrão de cores e organização utilizados na planilha. Nesta tela foram alocados campos do tipo text para input de informação, assim como labels para os campos onde os dados são apresentados, mas não alterados pelo usuário.
 > <img src="./prints/tela2.png" alt="Print da Tela 2"/>
 
-<<<<<<< HEAD
 - Nesse Segunda Sprint foram adicionadas algumas simulações para as comunicações que ocorrem na primeira tela do projeto e na tela para gerenciar o teor dos nutrientes no solo, onde há uma classificação inicial para o textura do solo e para o tipo de plantio como pode ser visto na figura.
 > <img src="./gifs/func1.gif">
 
@@ -55,8 +47,6 @@ Além disso, há uma barra de opções que dará acesso a outras telas, cuja as 
 - Por fim foram criados também testes unitário para validar a execução dessas funções de calculo criadas, e a execução dos testes pode ser vista no gif a seguir.
 > <img src="./gifs/build1.gif">
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 ## Autor <a id="autor"></a> :blue_book:
 
 - Pedro Henrique da Silva Pereira /
