@@ -26,4 +26,20 @@ public class ControleFosforo {
         if(teorFosfAtingir>0.01)return teorFosfAtingir;
         else return 0;
     }
+    
+    public float qtdAplicarFosforo(float teor, float fonte){
+        return fontFosforo.qtdAplicar(teor, fonte);
+    }
+    
+    public float calcFonteFosforo(float fonteFosforo){
+        return fontFosforo.calcValFonteFosforo(fonteFosforo);
+    }
+    
+    public float calcFonteFosforoCorrecao(float fonteFosforo, float tipoFonte){
+        return fontFosforo.calcValFonteFosforoCorrecao(fonteFosforo, tipoFonte);
+    }
+    
+    public float calcCustoCorreção(float fonte, float qtdTeor, float tipoFonte){
+        return fontFosforo.calcCusto(fonte, qtdTeor, tipoFonte);
+    }
 }

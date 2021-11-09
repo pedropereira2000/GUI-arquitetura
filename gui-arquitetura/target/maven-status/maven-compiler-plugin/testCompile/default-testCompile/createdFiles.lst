@@ -1,4 +1,4 @@
-controle/fosforo/TesteControleFosforo.class
-controle/calcioMagnesio/TesteControleCalcioMagnesio.class
-controle/potassio/TesteControlePotassio.class
-controle/outrasFontes/TesteControleOutrasFontes.class
+controle\fosforo\TesteControleFosforo.class
+controle\outrasFontes\TesteControleOutrasFontes.class
+controle\calcioMagnesio\TesteControleCalcioMagnesio.class
+controle\potassio\TesteControlePotassio.class

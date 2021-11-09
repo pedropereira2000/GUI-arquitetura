@@ -47,6 +47,13 @@ Além disso, há uma barra de opções que dará acesso a outras telas, cuja as 
 - Por fim foram criados também testes unitário para validar a execução dessas funções de calculo criadas, e a execução dos testes pode ser vista no gif a seguir.
 > <img src="./gifs/build1.gif">
 
+- Na Terceira e ultima Sprint foi adicionada a ultima tela para as fontes, assim como suas funções simuladas pela interface e pela controle para que seje possível realizar o controle e correção das fontes utilizadas no processo. A tela pode ser vista no gif a seguir.
+> <img src="./gifs/fontes.gif">
+
+- Por fim também foram criados e realizados teste para as novas funções implementadas, e foram também realizadas correção para o devido funcionamento do código. Pode ser visto a baixo um gif da execução dos testes na build e um print da cobertuda destes.
+> <img src="./gifs/build_testes.gif">
+> <img src="./prints/testeCoberturaGeral.png">
+
 ## Autor <a id="autor"></a> :blue_book:
 
 - Pedro Henrique da Silva Pereira /

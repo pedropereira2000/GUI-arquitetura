@@ -3,34 +3,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package com.utfpr.pedro.gui.arquitetura.views;
-<<<<<<< HEAD
 import com.utfpr.pedro.gui.arquitetura.control_nutriente_fonte.fosforo.ControleFosforo;
 import com.utfpr.pedro.gui.arquitetura.control_nutriente_fonte.magnesio_calcio.ControleCalcioMagnesio;
 import com.utfpr.pedro.gui.arquitetura.control_nutriente_fonte.potassio.ControlePotassio;
     
-=======
-
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 /**
  *
  * @author pedropereira
  */
 public class GerenciarTeor extends javax.swing.JFrame {
-<<<<<<< HEAD
     private ControleFosforo controlF = new ControleFosforo();
     private ControlePotassio controlP = new ControlePotassio();
     private ControleCalcioMagnesio controlCM = new ControleCalcioMagnesio();
     private ControleOutrasFontes controlOther = new ControleOutrasFontes();
     public static int texturaSolo = 0;
-=======
-
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     /**
      * Creates new form GerenciarTeor
      */
     public GerenciarTeor() {
         initComponents();
-<<<<<<< HEAD
         texturaSolo = EquilibrioCorrecaoCTC.texturaSolo;
         lblFosforoIdeal.setText(String.valueOf(controlF.fosforoIdeal(texturaSolo)));
         lblCalcioIdeal.setText(String.valueOf(controlCM.calcioIdeal(texturaSolo)));
@@ -38,8 +29,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
         lblPotassioIdeal.setText(controlP.potassioIdeal(texturaSolo));
         lblEnxofreIdeal.setText(String.valueOf(controlOther.enxofreIdeal(texturaSolo)));
         
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     }
 
     /**
@@ -137,21 +126,14 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jSeparator30 = new javax.swing.JSeparator();
         jPanel13 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
-<<<<<<< HEAD
-=======
-        lblMogdm3 = new javax.swing.JLabel();
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jSeparator37 = new javax.swing.JSeparator();
         jSeparator38 = new javax.swing.JSeparator();
         jSeparator39 = new javax.swing.JSeparator();
         jSeparator40 = new javax.swing.JSeparator();
         jSeparator41 = new javax.swing.JSeparator();
-<<<<<<< HEAD
         txtItemCalc1 = new javax.swing.JTextField();
         txtMOgdm3 = new javax.swing.JTextField();
         txtK17 = new javax.swing.JTextField();
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jSeparator36 = new javax.swing.JSeparator();
         jPanel14 = new javax.swing.JPanel();
         jSeparator42 = new javax.swing.JSeparator();
@@ -160,38 +142,24 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jSeparator45 = new javax.swing.JSeparator();
         jSeparator46 = new javax.swing.JSeparator();
         lblVal1 = new javax.swing.JLabel();
-<<<<<<< HEAD
         lblValMOPercente = new javax.swing.JLabel();
         lblMOPercent = new javax.swing.JLabel();
         lblTipoVal2 = new javax.swing.JLabel();
         lblVal3 = new javax.swing.JLabel();
         lblTipoMogdm3 = new javax.swing.JLabel();
-=======
-        lblTipoVal = new javax.swing.JLabel();
-        lblVal2 = new javax.swing.JLabel();
-        lblTipoVal2 = new javax.swing.JLabel();
-        lblVal3 = new javax.swing.JLabel();
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jPanel15 = new javax.swing.JPanel();
         jSeparator47 = new javax.swing.JSeparator();
         jSeparator48 = new javax.swing.JSeparator();
         jSeparator49 = new javax.swing.JSeparator();
         lblVal4 = new javax.swing.JLabel();
-<<<<<<< HEAD
         lblTipo2MOgdm3 = new javax.swing.JLabel();
         lblVal5 = new javax.swing.JLabel();
         lblVal6 = new javax.swing.JLabel();
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jPanel16 = new javax.swing.JPanel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
 
-<<<<<<< HEAD
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-=======
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jLabel1.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jLabel1.setText("GERENCIAMENTO DE TEORES NO SOLO ANÁLISADO");
@@ -756,11 +724,7 @@ public class GerenciarTeor extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGap(73, 73, 73)
                 .addComponent(jSeparator28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-=======
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addComponent(jSeparator29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(112, 112, 112))
         );
@@ -771,11 +735,7 @@ public class GerenciarTeor extends javax.swing.JFrame {
         );
 
         jPanel12.setBackground(new java.awt.Color(204, 204, 0));
-<<<<<<< HEAD
         jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-=======
-        jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(null));
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jLabel25.setFont(new java.awt.Font("Noto Sans", 1, 14)); // NOI18N
         jLabel25.setText("S cmol:");
@@ -871,21 +831,11 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jSeparator30.setForeground(new java.awt.Color(0, 0, 0));
 
         jPanel13.setBackground(new java.awt.Color(153, 153, 153));
-<<<<<<< HEAD
         jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-=======
-        jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(null));
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jLabel31.setFont(new java.awt.Font("Noto Sans", 0, 12)); // NOI18N
         jLabel31.setText("M.O. (g.dm3)");
 
-<<<<<<< HEAD
-=======
-        lblMogdm3.setFont(new java.awt.Font("Noto Sans", 1, 14)); // NOI18N
-        lblMogdm3.setText("30,7");
-
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jSeparator37.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator37.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator37.setOrientation(javax.swing.SwingConstants.VERTICAL);
@@ -906,7 +856,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jSeparator41.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator41.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-<<<<<<< HEAD
         txtMOgdm3.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 txtMOgdm3FocusLost(evt);
@@ -926,8 +875,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
             }
         });
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
@@ -937,7 +884,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
                 .addComponent(jLabel31)
                 .addGap(65, 65, 65)
                 .addComponent(jSeparator37, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(9, 9, 9)
                 .addComponent(txtMOgdm3, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(22, 22, 22)
@@ -945,23 +891,13 @@ public class GerenciarTeor extends javax.swing.JFrame {
                 .addGap(8, 8, 8)
                 .addComponent(txtItemCalc1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
-=======
-                .addGap(44, 44, 44)
-                .addComponent(lblMogdm3)
-                .addGap(54, 54, 54)
-                .addComponent(jSeparator38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(113, 113, 113)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addComponent(jSeparator39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(100, 100, 100)
                 .addComponent(jSeparator40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(90, 90, 90)
                 .addComponent(jSeparator41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(14, 14, 14)
                 .addComponent(txtK17, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addContainerGap())
         );
         jPanel13Layout.setVerticalGroup(
@@ -970,12 +906,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jSeparator37, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 37, Short.MAX_VALUE)
-<<<<<<< HEAD
-=======
-                        .addGroup(jPanel13Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(lblMogdm3))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                         .addComponent(jSeparator38, javax.swing.GroupLayout.Alignment.TRAILING))
                     .addComponent(jSeparator41, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
@@ -983,7 +913,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
                         .addComponent(jSeparator40, javax.swing.GroupLayout.Alignment.LEADING))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addContainerGap()
-<<<<<<< HEAD
                         .addComponent(jLabel31))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addGap(2, 2, 2)
@@ -994,9 +923,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addGap(3, 3, 3)
                         .addComponent(txtK17, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
-=======
-                        .addComponent(jLabel31)))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1004,11 +930,7 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jSeparator36.setForeground(new java.awt.Color(0, 0, 0));
 
         jPanel14.setBackground(new java.awt.Color(204, 204, 204));
-<<<<<<< HEAD
         jPanel14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-=======
-        jPanel14.setBorder(javax.swing.BorderFactory.createLineBorder(null));
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jSeparator42.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator42.setForeground(new java.awt.Color(0, 0, 0));
@@ -1033,19 +955,11 @@ public class GerenciarTeor extends javax.swing.JFrame {
         lblVal1.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblVal1.setText("0");
 
-<<<<<<< HEAD
         lblValMOPercente.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblValMOPercente.setText("M.O. %");
 
         lblMOPercent.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblMOPercent.setText("3,07");
-=======
-        lblTipoVal.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
-        lblTipoVal.setText("M.O. %");
-
-        lblVal2.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
-        lblVal2.setText("3,07");
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         lblTipoVal2.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblTipoVal2.setText("Carbono");
@@ -1058,32 +972,20 @@ public class GerenciarTeor extends javax.swing.JFrame {
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGap(70, 70, 70)
                 .addComponent(lblTipoMogdm3, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-=======
-                .addContainerGap(188, Short.MAX_VALUE)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addComponent(jSeparator42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(62, 62, 62)
                 .addComponent(lblVal1)
                 .addGap(67, 67, 67)
                 .addComponent(jSeparator43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(32, 32, 32)
-<<<<<<< HEAD
                 .addComponent(lblValMOPercente)
                 .addGap(33, 33, 33)
                 .addComponent(jSeparator44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35)
                 .addComponent(lblMOPercent)
-=======
-                .addComponent(lblTipoVal)
-                .addGap(33, 33, 33)
-                .addComponent(jSeparator44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(lblVal2)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addGap(36, 36, 36)
                 .addComponent(jSeparator45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1102,7 +1004,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
             .addComponent(jSeparator45)
             .addComponent(jSeparator46)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel14Layout.createSequentialGroup()
@@ -1122,23 +1023,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
 
         jPanel15.setBackground(new java.awt.Color(204, 204, 204));
         jPanel15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-=======
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(lblTipoVal)
-                .addContainerGap())
-            .addGroup(jPanel14Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblVal1)
-                    .addComponent(lblVal2)
-                    .addComponent(lblTipoVal2)
-                    .addComponent(lblVal3))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel15.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel15.setBorder(javax.swing.BorderFactory.createLineBorder(null));
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jSeparator47.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator47.setForeground(new java.awt.Color(0, 0, 0));
@@ -1155,33 +1039,25 @@ public class GerenciarTeor extends javax.swing.JFrame {
         lblVal4.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblVal4.setText("0,00");
 
-<<<<<<< HEAD
         lblTipo2MOgdm3.setText("jLabel17");
 
         lblVal5.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
 
         lblVal6.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGap(74, 74, 74)
                 .addComponent(lblTipo2MOgdm3)
                 .addGap(81, 81, 81)
-=======
-                .addGap(195, 195, 195)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addComponent(jSeparator47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52)
                 .addComponent(lblVal4)
                 .addGap(57, 57, 57)
                 .addComponent(jSeparator48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
                 .addComponent(jSeparator49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(37, 37, 37)
@@ -1192,11 +1068,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
                     .addContainerGap(380, Short.MAX_VALUE)
                     .addComponent(lblVal6, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(117, 117, 117)))
-=======
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, Short.MAX_VALUE)
-                .addComponent(jSeparator49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(97, 97, 97))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1205,7 +1076,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
             .addComponent(jSeparator49)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addContainerGap()
-<<<<<<< HEAD
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -1224,14 +1094,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
 
         jPanel16.setBackground(new java.awt.Color(255, 204, 153));
         jPanel16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-=======
-                .addComponent(lblVal4)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel16.setBackground(new java.awt.Color(255, 204, 153));
-        jPanel16.setBorder(javax.swing.BorderFactory.createLineBorder(null));
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         jLabel39.setFont(new java.awt.Font("Noto Sans", 1, 12)); // NOI18N
         jLabel39.setText("Teor ideal de M.O.:");
@@ -1364,7 +1226,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtMagnesioActionPerformed
 
-<<<<<<< HEAD
     private void txtMOgdm3InputMethodTextChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_txtMOgdm3InputMethodTextChanged
         
     }//GEN-LAST:event_txtMOgdm3InputMethodTextChanged
@@ -1383,8 +1244,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
         lblVal6.setText(String.valueOf(controlOther.calcP18(Double.parseDouble(txtK17.getText()))));
     }//GEN-LAST:event_txtK17FocusLost
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     /**
      * @param args the command line arguments
      */
@@ -1513,7 +1372,6 @@ public class GerenciarTeor extends javax.swing.JFrame {
     private javax.swing.JLabel lblCtccmol;
     private javax.swing.JLabel lblEnxofreIdeal;
     private javax.swing.JLabel lblFosforoIdeal;
-<<<<<<< HEAD
     private javax.swing.JLabel lblMOPercent;
     private javax.swing.JLabel lblMagnesioIdeal;
     private javax.swing.JLabel lblMagnesioPosCorrecao;
@@ -1529,32 +1387,15 @@ public class GerenciarTeor extends javax.swing.JFrame {
     private javax.swing.JLabel lblVal5;
     private javax.swing.JLabel lblVal6;
     private javax.swing.JLabel lblValMOPercente;
-=======
-    private javax.swing.JLabel lblMagnesioIdeal;
-    private javax.swing.JLabel lblMagnesioPosCorrecao;
-    private javax.swing.JLabel lblMogdm3;
-    private javax.swing.JLabel lblPotassioIdeal;
-    private javax.swing.JLabel lblPotassioPosCorrecao;
-    private javax.swing.JLabel lblScmol;
-    private javax.swing.JLabel lblTipoVal;
-    private javax.swing.JLabel lblTipoVal2;
-    private javax.swing.JLabel lblVal1;
-    private javax.swing.JLabel lblVal2;
-    private javax.swing.JLabel lblVal3;
-    private javax.swing.JLabel lblVal4;
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     private javax.swing.JLabel lblVatual;
     private javax.swing.JTextField txtAluminio;
     private javax.swing.JTextField txtCalcio;
     private javax.swing.JTextField txtEnxofre;
     private javax.swing.JTextField txtFosforo;
     private javax.swing.JTextField txtHAl;
-<<<<<<< HEAD
     private javax.swing.JTextField txtItemCalc1;
     private javax.swing.JTextField txtK17;
     private javax.swing.JTextField txtMOgdm3;
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     private javax.swing.JTextField txtMagnesio;
     private javax.swing.JTextField txtPotassio;
     // End of variables declaration//GEN-END:variables

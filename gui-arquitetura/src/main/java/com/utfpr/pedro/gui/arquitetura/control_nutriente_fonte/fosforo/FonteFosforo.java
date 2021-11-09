@@ -10,4 +10,12 @@ package com.utfpr.pedro.gui.arquitetura.control_nutriente_fonte.fosforo;
  */
 public interface FonteFosforo {
     public float calcFosforoIdeal(int textSolo);
+    
+    public float qtdAplicar(float teor, float fonte);
+    
+    public float calcCusto(float fonte, float qtdTeor, float tipoFonte);
+    
+    public float calcValFonteFosforo(float fonteFosforo);
+    
+    public float calcValFonteFosforoCorrecao(float fonteFosforo, float tipoFonte);
 }

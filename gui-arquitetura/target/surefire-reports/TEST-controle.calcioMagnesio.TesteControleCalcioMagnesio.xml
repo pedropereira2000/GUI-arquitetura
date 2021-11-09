@@ -1,64 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.458" tests="20" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/test-classes:/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/classes:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/pedropereira/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pedropereira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pedropereira/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/pedropereira/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/pedropereira/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura\target\test-classes;C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\user\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\user\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE120\AbsoluteLayout-RELEASE120.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="CA"/>
     <property name="java.vm.specification.version" value="11"/>
-    <property name="os.name" value="Linux"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/surefire/surefirebooter18370867254337714846.jar /home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/surefire 2021-11-02T09-44-44_894-jvmRun1 surefire10279637491207210437tmp surefire_011126586208473440088tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire1364941722025644849\surefirebooter17151778172672660348.jar C:\Users\user\AppData\Local\Temp\surefire1364941722025644849 2021-11-09T00-03-40_733-jvmRun1 surefire8791891174401172484tmp surefire_04129594024877970289tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/test-classes:/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/classes:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/pedropereira/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pedropereira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pedropereira/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/pedropereira/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/pedropereira/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/pedropereira/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura\target\test-classes;C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\user\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\user\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE120\AbsoluteLayout-RELEASE120.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/pedropereira"/>
+    <property name="user.home" value="C:\Users\user"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-04-20"/>
-    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura/target/surefire/surefirebooter18370867254337714846.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire1364941722025644849\surefirebooter17151778172672660348.jar"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
-    <property name="user.name" value="pedropereira"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.4.0-89-generic"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="/snap/netbeans/50/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
-    <property name="localRepository" value="/home/pedropereira/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="11.0.11"/>
-    <property name="user.dir" value="/home/pedropereira/Área de Trabalho/Materiais_UTFPR/7_PERIODO/ARQUITETURA/GUI-arquitetura/gui-arquitetura"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\user\Desktop\Materiais_UTFPR\GUI-arquitetura\gui-arquitetura"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk16.0.2_7\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\user\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\user\Documents\apache-maven-3.8.1\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;C:\Program Files\Java\jdk-11.0.13\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="ControleCalcioIdealValido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
-  <testcase name="ControleMagnesioIdealInvalido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
-  <testcase name="ControleCalcioIdealInvalido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
-  <testcase name="ControleMagnesioIdealValido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeDefValorIdealCalcioSemTipo" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.043"/>
+  <testcase name="testeMagnesioIdealInvalido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcPercentAtual" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.35"/>
+  <testcase name="testeCalcPosCorrecaoCalCtc" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcCusto" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcValorIdealTipo1" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcValorIdealTipo2" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeDefValorIdealMagnesioSemTipo" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcValorIdealSemTipo" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.004"/>
+  <testcase name="testeCalcPartAtualCalcCtc" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeDefValorIdealCalcioTipo1" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeDefValorIdealCalcioTipo2" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcPartAtualMagSolo" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalPosCorrecaoMagCtc" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.001"/>
+  <testcase name="testeDefValorIdealMagnesioTipo1" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeDefValorIdealMagnesioTipo2" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0.002"/>
+  <testcase name="testeCalcioIdealValido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeCalcioIdealInvalido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeMagnesioIdealValido" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
+  <testcase name="testeQtdAplicar" classname="controle.calcioMagnesio.TesteControleCalcioMagnesio" time="0"/>
 </testsuite>

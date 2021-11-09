@@ -4,24 +4,17 @@
  */
 package com.utfpr.pedro.gui.arquitetura.views;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 /**
  *
  * @author pedropereira
  */
 public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
-<<<<<<< HEAD
     
     public static int texturaSolo = 1;
     private ControleOutrasFontes controleOutrasFontes = new ControleOutrasFontes();
     private ArrayList tipoSolo=new ArrayList();
-=======
-
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     /**
      * Creates new form EquilibrioCorrecaoCTC
      */
@@ -52,42 +45,27 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-<<<<<<< HEAD
         lblTipoPlantio = new javax.swing.JLabel();
         lblTipoSolo = new javax.swing.JLabel();
         txtProdutor = new javax.swing.JTextField();
         txtMunicipio = new javax.swing.JTextField();
         txtTalhao = new javax.swing.JTextField();
-=======
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        txtProdutor = new javax.swing.JTextField();
-        txtMunicipio = new javax.swing.JTextField();
-        txtTalhao = new javax.swing.JTextField();
-        txtTexturaS = new javax.swing.JTextField();
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         txtRespTecnico = new javax.swing.JTextField();
         txtResultSolo = new javax.swing.JTextField();
         txtLote = new javax.swing.JTextField();
         txtAreaTalhao = new javax.swing.JTextField();
-<<<<<<< HEAD
-=======
-        txtSistCultivo = new javax.swing.JTextField();
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         txtProfSolos = new javax.swing.JTextField();
         txtAreaTotal = new javax.swing.JTextField();
         ftxtData = new javax.swing.JFormattedTextField();
         txtMatLote = new javax.swing.JTextField();
         lblArgiloso = new javax.swing.JLabel();
-<<<<<<< HEAD
         cbxTexturaSolo = new javax.swing.JComboBox<>();
         cbxSistemaCultivo = new javax.swing.JComboBox<>();
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         mntTeor = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -133,19 +111,11 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         jLabel14.setText("Matrícula do lote:");
 
-<<<<<<< HEAD
         lblTipoPlantio.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblTipoPlantio.setText("Plantio Direto");
 
         lblTipoSolo.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
         lblTipoSolo.setText("Argiloso");
-=======
-        jLabel15.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
-        jLabel15.setText("Plantio Direto");
-
-        jLabel16.setFont(new java.awt.Font("Noto Sans", 0, 14)); // NOI18N
-        jLabel16.setText("Argiloso");
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
 
         txtProdutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,7 +135,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         lblArgiloso.setText("+ 40 de argila");
         lblArgiloso.setToolTipText("");
 
-<<<<<<< HEAD
         cbxTexturaSolo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2" }));
         cbxTexturaSolo.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -185,8 +154,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
             }
         });
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
         jMenu1.setText("Teores");
 
         mntTeor.setText("Gerenciar Teor");
@@ -200,6 +167,15 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Correção e Fonte");
+
+        jMenuItem1.setText("Gerenciar Fontes");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem1);
+
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -212,19 +188,11 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-<<<<<<< HEAD
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(cbxTexturaSolo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabel5)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtTexturaS, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel6)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -234,21 +202,9 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtTalhao, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(50, 50, 50)
-<<<<<<< HEAD
                         .addComponent(jLabel12)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtProfSolos, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(txtSistCultivo, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel12)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txtProfSolos, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
@@ -260,20 +216,12 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtMatLote))
                             .addGroup(layout.createSequentialGroup()
-<<<<<<< HEAD
                                 .addComponent(lblTipoSolo)
-=======
-                                .addComponent(jLabel16)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(lblArgiloso, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(50, 50, 50)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
                             .addComponent(lblTipoPlantio)
-=======
-                            .addComponent(jLabel15)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -290,7 +238,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                                     .addComponent(txtMunicipio, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
                                     .addComponent(txtProdutor))
                                 .addGap(50, 50, 50)
-<<<<<<< HEAD
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel11)
@@ -309,21 +256,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                                             .addComponent(jLabel8)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                             .addComponent(ftxtData))))))))
-=======
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel10)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(txtAreaTalhao))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel9)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(txtLote, javax.swing.GroupLayout.PREFERRED_SIZE, 277, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel8)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(ftxtData)))))))
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addContainerGap(25, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -349,7 +281,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                     .addComponent(jLabel10)
                     .addComponent(txtTalhao, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtAreaTalhao, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-<<<<<<< HEAD
                 .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
@@ -357,15 +288,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                     .addComponent(cbxTexturaSolo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cbxSistemaCultivo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
-=======
-                .addGap(33, 33, 33)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel11)
-                    .addComponent(txtTexturaS, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtSistCultivo, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(31, 31, 31)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(jLabel12)
@@ -380,19 +302,11 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel14)
-<<<<<<< HEAD
                     .addComponent(lblTipoPlantio)
                     .addComponent(txtMatLote, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblTipoSolo)
-=======
-                    .addComponent(jLabel15)
-                    .addComponent(txtMatLote, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(29, 29, 29)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
                     .addComponent(lblArgiloso, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -412,7 +326,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         });
     }//GEN-LAST:event_mntTeorActionPerformed
 
-<<<<<<< HEAD
     private void cbxTexturaSoloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbxTexturaSoloActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_cbxTexturaSoloActionPerformed
@@ -428,8 +341,14 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
         lblTipoPlantio.setText(controleOutrasFontes.tipoPlantio(Integer.parseInt(cbxSistemaCultivo.getSelectedItem().toString())));
     }//GEN-LAST:event_cbxSistemaCultivoItemStateChanged
 
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new GerenciarFontes().setVisible(true);
+            }
+        });
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -466,11 +385,8 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< HEAD
     private javax.swing.JComboBox<String> cbxSistemaCultivo;
     private javax.swing.JComboBox<String> cbxTexturaSolo;
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     private javax.swing.JFormattedTextField ftxtData;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -478,11 +394,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-<<<<<<< HEAD
-=======
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -494,12 +405,10 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JLabel lblArgiloso;
-<<<<<<< HEAD
     private javax.swing.JLabel lblTipoPlantio;
     private javax.swing.JLabel lblTipoSolo;
-=======
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     private javax.swing.JMenuItem mntTeor;
     private javax.swing.JTextField txtAreaTalhao;
     private javax.swing.JTextField txtAreaTotal;
@@ -510,12 +419,6 @@ public class EquilibrioCorrecaoCTC extends javax.swing.JFrame {
     private javax.swing.JTextField txtProfSolos;
     private javax.swing.JTextField txtRespTecnico;
     private javax.swing.JTextField txtResultSolo;
-<<<<<<< HEAD
     private javax.swing.JTextField txtTalhao;
-=======
-    private javax.swing.JTextField txtSistCultivo;
-    private javax.swing.JTextField txtTalhao;
-    private javax.swing.JTextField txtTexturaS;
->>>>>>> f729e9855fc1179da717f3edf31d5cc13715371c
     // End of variables declaration//GEN-END:variables
 }

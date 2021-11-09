@@ -10,4 +10,12 @@ package com.utfpr.pedro.gui.arquitetura.control_nutriente_fonte.potassio;
  */
 public interface FontePotassio {
     public double calcPotassioAtingir(double potassioUsado);
+    
+    //potCalcMag é a soma dos três aplicados no solo
+    public float calcPotassioCTCSolo(float potassioSolo, float hAL, float potCalcMag);
+    
+    public float calcParticipacaoIPotassioCTC (int tipoSolo);
+    
+    public float calcCustoPorHa(int qtdUsado, float areaAplicada);
+    
 }
